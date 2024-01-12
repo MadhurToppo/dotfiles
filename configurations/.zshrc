@@ -12,6 +12,7 @@ alias enablesleep="sudo pmset -a disablesleep 0"
 alias journal="cd $HOME/workspace/journal && ll"
 alias workspace="cd $HOME/workspace && ll"
 alias nvim-config="cd $HOME/.config/nvim && ll"
+alias backup-dotfiles="cd $HOME/workspace/dotfiles/ && ll"
 alias pomodoro="termdown 55m && termdown 5m -s -t Done"
 alias rm='echo "This is not the command you are looking for."; false'
 alias emacs='emacs -nw'
