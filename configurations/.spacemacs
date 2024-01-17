@@ -32,7 +32,7 @@ This function should only modify configuration layer settings."
 
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
-   '(yaml
+   '(
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press `SPC f e R' (Vim style) or
@@ -40,6 +40,11 @@ This function should only modify configuration layer settings."
      ;; ----------------------------------------------------------------
      ;; auto-completion
      ;; better-defaults
+     ;; spell-checking
+     ;; syntax-checking
+     ;; version-control
+     ;; themes-megapack
+     (docker :variables docker-dockerfile-backend 'lsp)
      emacs-lisp
      git
      helm
@@ -49,21 +54,13 @@ This function should only modify configuration layer settings."
      multiple-cursors
      org
      (shell :variables
-             shell-default-height 30
-             shell-default-position 'bottom)
-     ;; spell-checking
-     ;; syntax-checking
-     ;; version-control
-     ;; themes-megapack
-     ;; (wakatime :variables
-     ;;          wakatime-api-key  "waka_0fddbf17-2a7a-4ccb-ac39-272c0695bb62"
-               ;; use the actual wakatime path
-     ;;          wakatime-cli-path "/opt/homebrew/bin/wakatime")
+            shell-default-height 30
+            shell-default-position 'bottom)
      (spotify :variables
               counsel-spotify-client-id "4739882d165547169c67c9c017742955"
               counsel-spotify-client-secret "3c6ce98e6a4b43cb9bb39b26533aa2dc")
-     treemacs)
-
+     treemacs
+     yaml)
 
    ;; List of additional packages that will be installed without being wrapped
    ;; in a layer (generally the packages are installed only and should still be
