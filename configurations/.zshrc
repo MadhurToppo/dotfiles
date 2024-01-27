@@ -2,7 +2,7 @@
 [[ -f "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.pre.zsh"
 # # Zsh/oh-my-posh settings
 # eval "$(oh-my-posh init zsh)"
-eval "$(oh-my-posh init zsh --config /opt/homebrew/opt/oh-my-posh/themes/larserikfinholt.omp.json)"
+eval "$(oh-my-posh init zsh --config /opt/homebrew/opt/oh-my-posh/themes/marcduiker.omp.json)"
 
 # Aliases
 alias vim="nvim"
