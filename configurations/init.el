@@ -81,15 +81,13 @@
 (setq org-startup-folded t)
 ;; Define todo states
 (setq org-todo-keywords
-      '((sequence "TODO(t)" "DOING(d)" "DONE(D)" "POSTPONED(P)" "ABANDONED(A)")))
+      '((sequence "TODO(t)" "DOING(d)" "POSTPONED(P)" "ABANDONED(A)" "DONE(D)")))
 ;; Set todo keyword colors
 (setq org-todo-keyword-faces
       (quote (("TODO" :foreground "orange" :weight bold)
               ("DOING" :foreground "magenta" :weight bold)
-              ("DONE" :foreground "green" :weight bold)
               ("POSTPONED" :foreground "yellow" :weight bold)
-              ("ABANDONED" :foreground "red" :weight bold))))
+              ("ABANDONED" :foreground "red" :weight bold)
+              ("DONE" :foreground "green" :weight bold))))
 ;; org-agenda
 (setq org-agenda-files (list "~/workspace/journal/diary/2024/january.org"))
-;; Set global line numbers
-(global-display-line-numbers-mode)
