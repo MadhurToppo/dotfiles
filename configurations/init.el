@@ -89,10 +89,7 @@
               ("DONE" :foreground "green" :weight bold)
               ("POSTPONED" :foreground "yellow" :weight bold)
               ("ABANDONED" :foreground "red" :weight bold))))
-;; lsp-sonarlint configuration
-;;(require 'lsp-sonarlint)
-;;(require 'lsp-sonarlint-java)
-;;(setq lsp-sonarlint-java-enabled t)
-
 ;; org-agenda
 (setq org-agenda-files (list "~/workspace/journal/diary/2024/january.org"))
+;; Set global line numbers
+(global-display-line-numbers-mode)

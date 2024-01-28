@@ -18,8 +18,8 @@ alias rm='echo "This is not the command you are looking for."; false'
 alias emacs='emacs -nw'
 
 # Variables
-export EDITOR='emacs -nw'
-export VISUAL='emacs -nw'
+export EDITOR='emacs'
+export VISUAL='emacs'
 export CLICOLOR=1
 export LSCOLORS=gxFxCxDxBxegedabagaced
 export JAVA_HOME=$(/usr/libexec/java_home)
