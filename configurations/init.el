@@ -93,3 +93,5 @@
 ;; (setq org-agenda-files (list "~/workspace/journal/diary/2024/january.org"))
 (setq org-agenda-files (list "~/workspace/journal/germany"
                              "~/workspace/journal/diary/2024"))
+;; Set default launch terminal to iterm
+(setq terminal-here-mac-terminal-command 'iterm2)
