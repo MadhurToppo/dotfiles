@@ -16,6 +16,7 @@ alias backup-dotfiles="cd $HOME/workspace/dotfiles/ && ll"
 alias pomodoro="termdown 55m && termdown 5m -s -t Done"
 alias rm='echo "This is not the command you are looking for."; false'
 alias emacs='emacs -nw'
+alias gr='cd $(git rev-parse --show-toplevel)'
 
 # Variables
 export EDITOR='emacs'
