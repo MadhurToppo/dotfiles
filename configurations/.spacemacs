@@ -48,7 +48,7 @@ This function should only modify configuration layer settings."
      (docker :variables docker-dockerfile-backend 'lsp)
      emacs-lisp
      git
-     helm
+     (ivy :variables ivy-enable-icons t)
      java
      lsp
      markdown
