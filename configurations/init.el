@@ -95,3 +95,4 @@
                              "~/workspace/journal/diary/2024"))
 ;; Set default launch terminal to iterm
 (setq terminal-here-mac-terminal-command 'iterm2)
+(treemacs-resize-icons 12)
