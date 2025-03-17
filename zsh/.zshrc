@@ -6,19 +6,20 @@ alias vim="nvim"
 alias ll='ls -la'
 alias disablesleep="sudo pmset -a disablesleep 1"
 alias enablesleep="sudo pmset -a disablesleep 0"
-alias journal="cd $HOME/workspace/journal && nvim ."
-alias workspace="cd $HOME/workspace && ll"
-alias dotfiles="cd $HOME/dotfiles/ && lazygit"
-alias nvim-config="cd $HOME/.config/nvim && ll"
-alias backup-dotfiles="cd $HOME/workspace/dotfiles/ && ll"
+alias dotfiles="cd $HOME/dotfiles"
+alias nvim-config="cd $HOME/.config/nvim"
+alias workspace="cd $HOME/workspace"
+alias journal="cd $HOME/workspace/journal"
+alias backup-dotfiles="cd $HOME/workspace/dotfiles"
 alias pomodoro="termdown 55m && termdown 5m -s -t Done"
 alias rm='echo "This is not the command you are looking for."; false'
 alias emacs='emacs -nw'
 alias gr='cd $(git rev-parse --show-toplevel)'
 alias glo='git log --oneline'
 alias python='python3'
-alias c='clear'
 alias breathe="$HOME/workspace/boxbreath/boxbreath"
+alias c='clear'
+alias n='nvim .'
 
 # Environment Variables
 export LANG="en_US.UTF-8"
