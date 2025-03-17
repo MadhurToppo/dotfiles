@@ -1,4 +1,5 @@
 theme = VibrantInk
+font-family = JetBrainsMono Nerd Font Mono
 minimum-contrast = 1
 background-opacity = 0.80
 background-blur = true
