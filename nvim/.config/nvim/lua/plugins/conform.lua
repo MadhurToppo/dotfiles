@@ -10,6 +10,7 @@ return {
       },
       formatters_by_ft = {
         ["java"] = { "google-java-format" },
+        ["kotlin"] = { "ktlint" },
         ["javascript"] = { "prettier" },
         ["javascriptreact"] = { "prettier" },
         ["typescript"] = { "prettier" },
