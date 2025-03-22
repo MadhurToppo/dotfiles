@@ -4,7 +4,8 @@
     "lazyvim.plugins.extras.ai.copilot-chat",
     "lazyvim.plugins.extras.coding.mini-surround",
     "lazyvim.plugins.extras.editor.telescope",
-    "lazyvim.plugins.extras.lang.java"
+    "lazyvim.plugins.extras.lang.java",
+    "lazyvim.plugins.extras.lang.kotlin"
   ],
   "install_version": 8,
   "news": {
