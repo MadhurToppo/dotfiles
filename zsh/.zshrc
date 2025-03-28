@@ -17,11 +17,12 @@ alias emacs='emacs -nw'
 alias gr='cd $(git rev-parse --show-toplevel)'
 alias glo='git log --oneline'
 alias python='python3'
-alias b="$HOME/workspace/boxbreath/boxbreath"
+alias b="calm-garden-cli"
 alias c='clear'
 alias l='lazygit'
 alias n='nvim .'
-alias t='sh ~/.config/tmux/scripts/dev-session.sh'
+alias t='tmux'
+alias t-dev='sh ~/.config/tmux/scripts/dev-session.sh'
 alias y='yazi'
 
 # Environment Variables
