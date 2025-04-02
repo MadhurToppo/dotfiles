@@ -22,7 +22,9 @@ alias c='clear'
 alias l='lazygit'
 alias n='nvim .'
 alias t='tmux'
-alias t-dev='sh ~/.config/tmux/scripts/dev-session.sh'
+alias ta='tmux a'
+alias td='sh ~/.config/tmux/scripts/dev-session.sh'
+alias tl='tmux ls'
 alias y='yazi'
 
 # Environment Variables
