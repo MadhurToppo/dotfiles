@@ -36,8 +36,9 @@ export CLICOLOR=1
 export LSCOLORS=gxFxCxDxBxegedabagaced
 
 # Java Configuration
-# export JAVA_HOME=$(/usr/libexec/java_home -v 21)
-export JAVA_HOME=$(/usr/libexec/java_home -v 24)
+export JAVA_HOME=$(/usr/libexec/java_home -v 21)
+# export JAVA_HOME=$(/usr/libexec/java_home -v 23)
+# export JAVA_HOME=$(/usr/libexec/java_home -v 24)
 export PATH=$JAVA_HOME/bin:$PATH
 export JDTLS_JVM_ARGS="-javaagent:$HOME/.local/share/nvim/mason/packages/jdtls/lombok.jar"
 
