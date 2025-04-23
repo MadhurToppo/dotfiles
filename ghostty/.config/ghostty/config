@@ -1,9 +1,8 @@
-theme = VibrantInk
+theme = DoomOne
 font-family = JetBrainsMono Nerd Font Mono
 font-size = 14
 minimum-contrast = 1
 window-decoration = true
-macos-titlebar-style = tabs
 window-subtitle = working-directory
 quit-after-last-window-closed = true
 macos-titlebar-proxy-icon = visible
