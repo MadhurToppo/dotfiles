@@ -48,7 +48,7 @@ export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
 fpath=(path/to/zsh-completions/src $fpath)
 
 # Print the current directory in the terminal title
-precmd() { print -Pn "\e]0;%~\a" }
+# precmd() { print -Pn "\e]0;%~\a" }
 
 # Count no.of executions of a command
 count-command(){
