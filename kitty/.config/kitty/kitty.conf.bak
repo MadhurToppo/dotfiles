@@ -1062,7 +1062,7 @@ hide_window_decorations no
 #: Color scheme {{{
 
 # foreground #dddddd
-background #515144
+# background #444444
 
 #: The foreground and background colors.
 
@@ -1494,7 +1494,7 @@ background_opacity 1.0
 #: means to use the default system color, a value of background means
 #: to use the background color of the currently active window and
 #: finally you can use an arbitrary color, such as #12af59 or red.
-# macos_titlebar_color black 
+macos_titlebar_color black
 
 #: The color of the kitty window's titlebar on macOS. A value of
 #: system means to use the default system color, light or dark can
@@ -1529,7 +1529,7 @@ background_opacity 1.0
 #: Dock). Changing this option by reloading the config is not
 #: supported.
 
-# macos_quit_when_last_window_closed no
+macos_quit_when_last_window_closed yes
 
 #: Have kitty quit when all the top-level windows are closed on macOS.
 #: By default, kitty will stay running, even with no open windows, as
@@ -2344,6 +2344,6 @@ background_opacity 1.0
 
 
 # BEGIN_KITTY_THEME
-# Tokyo Night Storm
+# Default
 include current-theme.conf
 # END_KITTY_THEME
