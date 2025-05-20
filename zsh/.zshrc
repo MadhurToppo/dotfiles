@@ -13,12 +13,15 @@ alias journal="cd $HOME/workspace/journal"
 alias backup-dotfiles="cd $HOME/workspace/dotfiles"
 alias pomodoro="termdown 55m && termdown 5m -s -t Done"
 alias rm='echo "This is not the command you are looking for."; false'
-alias emacs='emacs -nw'
 alias gr='cd $(git rev-parse --show-toplevel)'
 alias glo='git log --oneline'
 alias python='python3'
 alias b="calm-garden-cli"
 alias c='clear'
+alias dcu='docker-compose up --detach'
+alias dcd='docker-compose down'
+alias e='emacs -nw'
+alias k='sh ~/workspace/open-source/kanban'
 alias l='lazygit'
 alias n='nvim .'
 alias t='tmux'
@@ -78,3 +81,7 @@ eval "$(starship init zsh)"
 
 # Amazon Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
